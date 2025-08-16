@@ -6,11 +6,6 @@ This project enables a SAM bot robot to map its environment using SLAM, autonomo
 
 ---
 
-## Project Video Demonstration
-
-Check out the project in action in the following video:
-
-[![Autonomous SAM Bot Navigation](https://img.youtube.com/vi/VXEEutV2rts/0.jpg)](https://youtu.be/VXEEutV2rts)
 
 ## Repository Structure
 
@@ -36,6 +31,14 @@ Check out the project in action in the following video:
 - **Real-Time Object Detection:** YOLOv8 node detects target objects live during robot operation.
 - **Model Training Pipeline:** Annotate and train your dataset in Roboflow/YOLOv8, then deploy in ROS2.
 - **Custom Scripts:** Trigger navigation, control robot, enhance operation.
+
+---
+
+## Project Video Demonstration
+
+Check out the project in action in the following video:
+
+[![Autonomous SAM Bot Navigation](https://img.youtube.com/vi/VXEEutV2rts/0.jpg)](https://youtu.be/VXEEutV2rts)
 
 ---
 
