@@ -116,6 +116,26 @@ ros2 launch yolov8_bringup yolov8.launch.py
 
 ---
 
+## Improvements and Future Work
+
+- **Enhanced Path Following:**  
+  The robot currently experiences difficulty executing smooth turns during autonomous navigation. Investigating and integrating a more advanced path follower or local planner—such as a different PID, MPC controller, or refined DWB parameters—could significantly improve trajectory tracking through curves.
+
+- **Controller Replacement:**  
+  Explore alternative navigation controllers or planners within the ROS2 Nav2 ecosystem or custom solutions to achieve more adaptive and robust motion, especially for environments with sharp turns and dynamic obstacles.
+
+- **Detection Improvements:**  
+  - Expand the YOLOv8 model training with a broader dataset for improved detection accuracy of objects under different lighting and occlusions.
+  - Integrate feedback from detection to influence navigation decisions (e.g., path replanning when an object appears unexpectedly).
+
+- **System Integration:**  
+  - Improve the interface between object detection and navigation to allow for on-the-fly goal updates or obstacle avoidance based on newly detected objects.
+
+- **Hardware Adaptation:**  
+  - Tune the robot’s actuators or kinematics parameters in simulation and reality to further increase navigation accuracy.
+ 
+    ---
+
 ## Author
 
 David Furtado
