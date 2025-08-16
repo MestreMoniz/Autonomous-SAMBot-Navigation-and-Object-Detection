@@ -37,8 +37,9 @@ This project enables a SAM bot robot to map its environment using SLAM, autonomo
 
 ### 1. Map Creation with SLAM
 
-```ros2 launch slam_toolbox online_async_launch.py```
-
+```bash
+ros2 launch slam_toolbox online_async_launch.py
+```
 Drive the robot to explore the environment and save the map afterward.
 text
 
