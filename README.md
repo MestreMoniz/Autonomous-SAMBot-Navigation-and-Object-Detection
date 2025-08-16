@@ -6,6 +6,12 @@ This project enables a SAM bot robot to map its environment using SLAM, autonomo
 
 ---
 
+## Project Video Demonstration
+
+Check out the project in action in the following video:
+
+[![Autonomous SAM Bot Navigation](https://img.youtube.com/vi/VXEEutV2rts/0.jpg)](https://youtu.be/VXEEutV2rts)
+
 ## Repository Structure
 
 - `sam_bot_description/`  
