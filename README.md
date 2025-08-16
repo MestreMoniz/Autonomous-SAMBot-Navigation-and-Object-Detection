@@ -21,8 +21,6 @@ This project enables a SAM bot robot to map its environment using SLAM, autonomo
   Jupyter notebook for training your own YOLOv8 model (Roboflow integration)
 
 
-text
-
 ---
 
 ## Features
@@ -39,7 +37,7 @@ text
 
 ### 1. Map Creation with SLAM
 
-ros2 launch slam_toolbox online_async_launch.py
+```ros2 launch slam_toolbox online_async_launch.py
 
 Drive the robot to explore the environment and save the map afterward.
 text
@@ -50,7 +48,6 @@ ros2 launch nav2_bringup localization_launch.py
 map:=two_rooms_map2.yaml
 params_file:=src/sam_bot_description/config/nav2_params.yaml
 
-text
 
 ### 3. Autonomous Navigation
 
