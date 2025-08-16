@@ -8,10 +8,18 @@ This project enables a SAM bot robot to map its environment using SLAM, autonomo
 
 ## Repository Structure
 
-sam_bot_description/ # Robot URDF, launch, and config files for Nav2 and SLAM
-yolov8_ros/ # ROS2 Python package for YOLOv8 inference, tracking, debug, and 3D detection
-star_navigation/ # Custom scripts for starting/controlling navigation missions
-ObjectDetection.ipynb # Jupyter notebook for training your own YOLOv8 model (Roboflow integration)
+- `sam_bot_description/`  
+  Robot URDF, launch, and config files for Nav2 and SLAM
+
+- `yolov8_ros/`  
+  ROS2 Python package for YOLOv8 inference, tracking, debug, and 3D detection
+
+- `star_navigation/`  
+  Custom scripts for starting/controlling navigation missions
+
+- `ObjectDetection.ipynb`  
+  Jupyter notebook for training your own YOLOv8 model (Roboflow integration)
+
 
 text
 
