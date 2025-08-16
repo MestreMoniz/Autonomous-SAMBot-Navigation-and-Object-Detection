@@ -45,45 +45,48 @@ text
 
 ### 2. Localization
 
+```bash
 ros2 launch nav2_bringup localization_launch.py
 map:=two_rooms_map2.yaml
 params_file:=src/sam_bot_description/config/nav2_params.yaml
-
+```
 
 ### 3. Autonomous Navigation
 
+```bash
 ros2 launch nav2_bringup navigation_launch.py
 params_file:=src/sam_bot_description/config/nav2_params.yaml
 use_sim_time:=true
 map_subscribe_transient_local:=true
 
 ros2 service call /start_navigation sam_bot_description/StartNavigation "{start: true}"
+```
 
-text
 
 ### 4. Manual Teleoperation (Optional)
 
+```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 
-text
 
 ### 5. Display Robot in RViz
 
+```bash
 ros2 launch sam_bot_description display.launch.py
-
-text
+```
 
 ### 6. Custom Navigation Script
 
+```bash
 ros2 run star_navigation star_nav
-
-text
+```
 
 ### 7. Launch YOLOv8 Object Detection
 
+```bash
 ros2 launch yolov8_bringup yolov8.launch.py
-
-text
+```
 
 ### 8. (Optional) Train Your Own YOLOv8 Detector
 
@@ -95,7 +98,7 @@ text
 
 ## Requirements
 
-- ROS2 Foxy/Humble or compatible
+- ROS2 Humble or compatible
 - Python 3.8+
 - Nav2, SLAM Toolbox, teleop_twist_keyboard
 - YOLOv8 (Ultralytics), yolov8_ros, cv_bridge
